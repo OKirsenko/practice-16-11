@@ -1,0 +1,54 @@
+body {
+  background-color: gray;
+}
+.modal-form {
+  width: 400px;
+  margin: 0 auto;
+  background-color: lightcyan;
+  padding: 30px;
+}
+textarea {
+  resize: none;
+  padding: 10px;
+  outline: none;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: brown;
+}
+textarea::placeholder {
+  color: brown;
+}
+label {
+  display: block;
+  position: relative;
+  font-size: 14px;
+}
+input {
+  width: calc(100% - 38px);
+  border: 1px solid transparent;
+  padding-left: 25px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  background-color: lightcoral;
+}
+input:focus {
+  border: 1px solid orange;
+}
+button {
+  display: block;
+  margin: 0 auto;
+}
+svg {
+  position: absolute;
+  left: 8px;
+  top: 32px;
+  fill: orange;
+}
+input:focus + svg {
+  fill: brown;
+}
